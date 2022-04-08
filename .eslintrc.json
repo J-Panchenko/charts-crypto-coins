@@ -19,6 +19,9 @@
         "react"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "no-param-reassign": ["error", { "props": false }],
+        "react/jsx-props-no-spreading": "off",
+        "react/prop-types": "off"
     }
 }
